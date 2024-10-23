@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: mytest
+  namespace: test
+type: Opaque
+data:
+  HOST: bWFzdGVyMQ==
